@@ -1,0 +1,102 @@
+noPermission: '&6[&bLootChest&6] &cУ вас нет прав для этого'
+notAChest: '&cВы не смотрите на сундук'
+chestIsEmpy: '&cЭтот сундук пустой'
+chestDeleted: '&aЭтот сундук [Chest] &aбыл удален'
+chestSuccefulySaved: '&aСундук [Chest] был создан!'
+chestDoesntExist: '&cСундук [Chest] &cне существует!'
+chestAlreadyExist: '&cСундук [Chest] &cуже существует!'
+succesfulyRespawnedChest: '&aСундук [Chest] &a респавнулся!'
+AllChestsReloaded: '&aВсе сундуки респавнуты!'
+editedParticle: '&aНастройка партиклов для сундука &b[Chest]!'
+hologram_edited: '&aНастройка голограммы для сундука &b[Chest]!'
+PluginReloaded: '&aКонфг, языковой пакет и данные сундуков были обновлены'
+ListCommand: '&aСписок всех сундуков: [List]'
+copiedChest: '&6Вы скопировали сундук &b[Chest1] &6в сундук &b[Chest2]'
+changedPosition: '&6Вы установили локацию сундука &b[Chest] &6в ваше местоположение'
+settime: '&6Вы установили время респавна сундука &b[Chest]'
+PlayerIsNotOnline: '&cИгрок [Player] оффлайн'
+givefrom: '&b[Player] &aдал вам сундук &b[Chest]'
+giveto: '&aВы дали сундукt &b[Chest] &aигроку &b[Player]'
+chestRadiusSet: '&aВы установили радиус спавна для &b[Chest]&a.\n&aТеперь он будет
+  спавнится в радиусе того места, где он был создан, или в радиусе случайного игрока,
+  если значение параметра "use_players_locations_for_randomspawn": true'
+teleportedToChest: '&aВы телепортировались к сундуку &b[Chest]'
+enabledFallEffect: '&aВы включили эффект падения для сундука &b[Chest]'
+disabledFallEffect: '&cВы отключили эффект падения для сундука &b[Chest]'
+playerTookChest: '&6Чёерт! &b[Player] &6нашел сундук &b[Chest] &6и забарал его содержимое'
+disabledChestRadius: '&cВы отключили случайный спавн для сундука [Chest]'
+commandGetName: '&6Вы смотрите на суундук &b[Chest]'
+editedChestType: '&aРедактирование типа сундука &b[Chest]'
+removedHolograms: '&aУспешно удалено &b[Number] LootChest голограм.'
+CantOpenLootchestBecauseMonster: '&cВы не можете открыть этот сундук пока [Number]
+  монстров рядом'
+locate_command:
+  main_message: '&Координаты air-дропа:'
+  chest_list: '- &b[Chest]&6: [x], [y], [z] в мире [world]'
+Menu:
+  particles:
+    name: '&1Выберите партиклы сундука!'
+  copy:
+    name: '&1Выберите сундук для копирования'
+    page: '&2---> Страница &b[Number]'
+  main:
+    respawnTime: '&1Редактирование времени респавна'
+    content: '&1Редактирование содержимого'
+    chances: '&1Редактирование шанса появления предметов'
+    name: '&1Главное меню редактирования'
+    particles: '&1Выбор партиклов'
+    copychest: '&1Скопировать настройки из другого сундука'
+    disable_fall: '&aЭффект падения включен. Нажмите, чтобы &cВыключить'
+    disable_respawn_natural: '&aСообщение о автоматическом респавне включено. Нажмите,
+      чтобы &cВыключить'
+    disable_respawn_cmd: '&aСообщение о командном респавне включено. Нажмите, чтобы
+      &cВыключить'
+    disable_take_message: '&aСообщение о опустощении судука включено. Нажмите, чтобы
+      &cВыключить'
+    enable_fall: '&aЭффект падения выключен. Нажмите, чтобы &Включить'
+    enable_respawn_natural: '&aСообщение о автоматическом респавне выключено. Нажмите,
+      чтобы &Включить'
+    enable_respawn_cmd: '&aСообщение о командном респавне выключено. Нажмите, чтобы
+      &Включить'
+    enable_take_message: '&aСообщение о опустощении судука выключено. Нажмите, чтобы
+      &Включить'
+    type: '&1Выбор типа сундука (Бочка, Сундук-ловушка, Сундук)'
+  chances:
+    name: '&1Шанс предметов в сундуке [Chest]'
+    lore: '&aЛевый клик: +1||&aправый: -1||&ashift+правый: -10||&ashift+левый: +10||&atab+правый:
+      -50'
+  items:
+    name: '&1Предметы в сундуке [Chest]'
+  time:
+    infinite: '&aОтключить респавн по времени'
+    name: '&1Время до респавна'
+    minutes: '&aМинуты'
+    hours: '&aЧасы'
+    days: '&aДни'
+    notInfinite: '&aВключить респавн по времени'
+  type:
+    type: '&1Выберите тип сундука (Бочка, Сундук-ловушка, Сундук)'
+    name: '&1Выберите тип сундука (Бочка, Сундук-ловушка, Сундук)'
+help:
+- '&a -- Помощь по плагину LootChest --'
+- '&a(разработчик: Black_Eyes, Автор идеи: Ender_Griefeur99, Перевод на русский: Nikidze)'
+- '&a/lc create <name> &b: Создать сундук и открыть меня создания'
+- '&a/lc edit <name> &b: Открыть меню редактирования'
+- '&a/lc help &b: Открыть это меню'
+- '&a/lc respawn <name> &b: Респавнуть сундук'
+- '&a/lc respawnall &b: Респавнуть все сундуки'
+- '&a/lc remove <name> &b: Удалить сундук'
+- '&a/lc setholo <name> <text> &b: Установить голограмму'
+- '&a/lc reload &b: Перезагрузить плагин'
+- '&a/lc list &b: Список всех сундуков'
+- '&a/lc setpos &b: Редактирование позиции сундука'
+- '&a/lc give <name> <player>&b: выдать сундук <name> игроку <player>'
+- '&a/lc settime <name> &b: Установить время респавна в секундах'
+- '&a/lc randomspawn <name> <radius> &b: Установить рандомнвй респавн сундука в радиусе
+  <radius>. (0, чтобы выключить)'
+- '&a/lc tp <name> &b: Телепортироваться к сундуку'
+- '&a/lc togglefall <name> &b: Включить/выключить эффект падения для сундука'
+- '&a/lc getname &b: Получить имя сундука, на который направлен взгяд'
+- '&a/lc locate &b: Получить локацию всех сундуков, которые заспавнились автоматически'
+- '&a/lc removeAllHolo &b: Удалить забагованные голограмы, без удаления сундуков под
+  ними'
